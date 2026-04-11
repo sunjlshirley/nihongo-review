@@ -4110,19 +4110,23 @@ body { display:flex; flex-direction:column; overflow:hidden; }
   }
 
   function updateStats() {
-    var doneCount = (todayDone[currentTab] || []).length;
+    var served = todayServed[currentTab] || [];
+    var limit = currentTab === "vocab" ? VOCAB_LIMIT : GRAMMAR_LIMIT;
+    var total = served.length > 0 ? served.length : limit;
     var remaining = currentItems.length;
+    var doneCount = total - remaining;
+    if (doneCount < 0) doneCount = 0;
+
     document.getElementById("due").textContent = remaining;
-    document.getElementById("total").textContent = remaining + doneCount;
+    document.getElementById("total").textContent = total;
 
     var progId = "prog-" + currentTab;
     var barId = "bar-" + currentTab;
     if (remaining > 0) {
-      var total = remaining + doneCount;
       document.getElementById(progId).textContent = doneCount + "完了 / 残り" + remaining;
       document.getElementById(barId).style.width = (doneCount / total * 100) + "%";
     } else {
-      document.getElementById(progId).textContent = doneCount + "完了！";
+      document.getElementById(progId).textContent = total + "完了！";
       document.getElementById(barId).style.width = "100%";
     }
   }

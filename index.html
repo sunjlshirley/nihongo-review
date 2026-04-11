@@ -3825,11 +3825,23 @@ body { display:flex; flex-direction:column; overflow:hidden; }
     }
 
     // Load today's served list (cards selected for today, fixed once per day)
+    // Invalidate if date changed or limits don't match (migration from old code)
     var servedData = JSON.parse(localStorage.getItem("todayServed") || "{}");
-    if (servedData.date === today()) {
-      todayServed = servedData.served || { vocab: [], grammar: [] };
+    if (servedData.date === today() && servedData.served) {
+      var sv = servedData.served;
+      if ((sv.vocab || []).length <= VOCAB_LIMIT && (sv.grammar || []).length <= GRAMMAR_LIMIT) {
+        todayServed = sv;
+      } else {
+        // Stale data with wrong limits — reset
+        todayServed = { vocab: [], grammar: [] };
+        localStorage.removeItem("todayServed");
+        // Also clear stale todayDone to avoid ghost counts
+        todayDone = { vocab: [], grammar: [] };
+        localStorage.setItem("todayDone", JSON.stringify({ date: today(), done: todayDone }));
+      }
     } else {
       todayServed = { vocab: [], grammar: [] };
+      localStorage.removeItem("todayServed");
     }
   }
 
@@ -3861,50 +3873,29 @@ body { display:flex; flex-direction:column; overflow:hidden; }
     var state = JSON.parse(localStorage.getItem("reviewState") || "{}");
     var served = todayServed[type] || [];
 
-    // If we already selected cards for today, use the same set
-    if (served.length > 0) {
-      var queue = [];
-      for (var i = 0; i < served.length; i++) {
-        var found = all.filter(function(x) { return x.id === served[i]; })[0];
-        if (found) queue.push(found);
-      }
-      // Also add any cards marked wrong today that weren't in the original set
-      var wrongToday = all.filter(function(x) {
-        var s = state[x.id];
-        return s && s.lastWrong === today() && served.indexOf(x.id) < 0;
-      });
-      queue = queue.concat(wrongToday);
-
-      // Remove already-done cards, but keep wrong-again cards
-      var doneList = todayDone[type] || [];
-      queue = queue.filter(function(x) {
-        if (doneList.indexOf(x.id) >= 0) {
-          var s = state[x.id];
-          return s && s.lastWrong === today();
-        }
-        return true;
-      });
-      return queue;
+    // If no cards selected yet today, pick them now and lock
+    if (served.length === 0) {
+      var due = all.filter(function(x) { return isDue(x.id); });
+      due.sort(function(a, b) { return getCardPriority(b.id) - getCardPriority(a.id); });
+      due = due.slice(0, limit);
+      served = due.map(function(x) { return x.id; });
+      todayServed[type] = served;
+      localStorage.setItem("todayServed", JSON.stringify({ date: today(), served: todayServed }));
     }
 
-    // First time today: select cards and lock the set
-    var due = all.filter(function(x) { return isDue(x.id); });
-    due.sort(function(a, b) { return getCardPriority(b.id) - getCardPriority(a.id); });
-    due = due.slice(0, limit);
-
-    // Save today's selection so it doesn't change
-    todayServed[type] = due.map(function(x) { return x.id; });
-    localStorage.setItem("todayServed", JSON.stringify({ date: today(), served: todayServed }));
-
-    // Remove already-done cards
+    // Build queue from the locked served list only
     var doneList = todayDone[type] || [];
-    var queue = due.filter(function(x) {
-      if (doneList.indexOf(x.id) >= 0) {
-        var s = state[x.id];
-        return s && s.lastWrong === today();
+    var queue = [];
+    for (var i = 0; i < served.length; i++) {
+      var item = all.filter(function(x) { return x.id === served[i]; })[0];
+      if (!item) continue;
+      // Skip done cards, unless they were marked wrong today (re-review)
+      if (doneList.indexOf(item.id) >= 0) {
+        var s = state[item.id];
+        if (!(s && s.lastWrong === today())) continue;
       }
-      return true;
-    });
+      queue.push(item);
+    }
 
     return queue;
   }
@@ -3936,8 +3927,12 @@ body { display:flex; flex-direction:column; overflow:hidden; }
     var container = document.getElementById(containerId);
 
     if (currentItems.length === 0) {
-      var doneCount = (todayDone[currentTab] || []).length;
-      container.innerHTML = '<div class="empty"><div class="empty-icon">✓</div><div>今日の復習完了！</div><div style="margin-top:8px;font-size:14px">' + doneCount + '枚クリア</div></div>';
+      var served = todayServed[currentTab] || [];
+      var count = served.length;
+      var msg = count > 0
+        ? '<div class="empty"><div class="empty-icon">✓</div><div>今日の復習完了！</div><div style="margin-top:8px;font-size:14px">' + count + '枚クリア</div><div style="margin-top:4px;font-size:12px;color:#c0c0c0">また明日！</div></div>'
+        : '<div class="empty"><div class="empty-icon">✓</div><div>今日は復習なし</div><div style="margin-top:8px;font-size:12px;color:#c0c0c0">また明日！</div></div>';
+      container.innerHTML = msg;
       updateNav();
       return;
     }

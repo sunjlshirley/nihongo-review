@@ -1,0 +1,1675 @@
+{
+  "lastUpdated": "2026-04-11",
+  "items": [
+    {
+      "id": "vocab_001",
+      "type": "vocab",
+      "date": "一月九日",
+      "word": "馳せる",
+      "reading": "はせる",
+      "meaning": "疾驰",
+      "example": "想いをはせる",
+      "example_cn": "思绪飞扬"
+    },
+    {
+      "id": "vocab_002",
+      "type": "vocab",
+      "date": "一月九日",
+      "word": "かけら",
+      "reading": "",
+      "meaning": "碎片",
+      "example": "幸せのかけら",
+      "example_cn": "幸福的碎片"
+    },
+    {
+      "id": "vocab_003",
+      "type": "vocab",
+      "date": "九月九日",
+      "word": "しっくりくる",
+      "reading": "",
+      "meaning": "合适，贴切",
+      "example": "この説明がしっくりくる",
+      "example_cn": "这个解释很贴切"
+    },
+    {
+      "id": "vocab_004",
+      "type": "vocab",
+      "date": "九月九日",
+      "word": "独学",
+      "reading": "どくがく",
+      "meaning": "自学",
+      "example": "独学で日本語を勉強した",
+      "example_cn": "自学日语"
+    },
+    {
+      "id": "vocab_005",
+      "type": "vocab",
+      "date": "九月九日",
+      "word": "希薄になる",
+      "reading": "きはくになる",
+      "meaning": "变淡薄",
+      "example": "繋がりが希薄になった",
+      "example_cn": "联系变淡了"
+    },
+    {
+      "id": "vocab_006",
+      "type": "vocab",
+      "date": "九月九日",
+      "word": "御座なりになる",
+      "reading": "おざなりになる",
+      "meaning": "敷衍了事",
+      "example": "仕事がおざなりになる",
+      "example_cn": "工作变得敷衍"
+    },
+    {
+      "id": "vocab_007",
+      "type": "vocab",
+      "date": "九月十六日",
+      "word": "殺し屋",
+      "reading": "ころしや",
+      "meaning": "杀手",
+      "example": "映画の殺し屋",
+      "example_cn": "电影里的杀手"
+    },
+    {
+      "id": "vocab_008",
+      "type": "vocab",
+      "date": "九月十六日",
+      "word": "映し出す",
+      "reading": "うつしだす",
+      "meaning": "映照出，显现出",
+      "example": "鏡に映し出す",
+      "example_cn": "映照在镜子里"
+    },
+    {
+      "id": "vocab_009",
+      "type": "vocab",
+      "date": "九月十六日",
+      "word": "贈呈",
+      "reading": "ぞうてい",
+      "meaning": "赠送",
+      "example": "賞品を贈呈する",
+      "example_cn": "赠送奖品"
+    },
+    {
+      "id": "vocab_010",
+      "type": "vocab",
+      "date": "九月十六日",
+      "word": "四時",
+      "reading": "よじ",
+      "meaning": "四点",
+      "example": "四時に集合する",
+      "example_cn": "四点集合"
+    },
+    {
+      "id": "vocab_011",
+      "type": "vocab",
+      "date": "九月二十三日",
+      "word": "紹介状",
+      "reading": "しょうかいじょう",
+      "meaning": "介绍信",
+      "example": "医者の紹介状",
+      "example_cn": "医生的介绍信"
+    },
+    {
+      "id": "vocab_012",
+      "type": "vocab",
+      "date": "九月二十三日",
+      "word": "税金",
+      "reading": "ぜいきん",
+      "meaning": "税收",
+      "example": "所得税金を払う",
+      "example_cn": "缴纳所得税"
+    },
+    {
+      "id": "vocab_013",
+      "type": "vocab",
+      "date": "九月二十三日",
+      "word": "整形",
+      "reading": "せいけい",
+      "meaning": "整容",
+      "example": "整形手術を受ける",
+      "example_cn": "做整容手术"
+    },
+    {
+      "id": "vocab_014",
+      "type": "vocab",
+      "date": "九月二十三日",
+      "word": "潰しが利く",
+      "reading": "つぶしがきく",
+      "meaning": "通用性强",
+      "example": "この技能は潰しが利く",
+      "example_cn": "这个技能很实用"
+    },
+    {
+      "id": "vocab_015",
+      "type": "vocab",
+      "date": "九月二十三日",
+      "word": "類は友を呼ぶ",
+      "reading": "るいはともをよぶ",
+      "meaning": "物以类聚",
+      "example": "",
+      "example_cn": ""
+    },
+    {
+      "id": "vocab_016",
+      "type": "vocab",
+      "date": "九月二十三日",
+      "word": "消化器官",
+      "reading": "しょうかきかん",
+      "meaning": "消化器官",
+      "example": "胃は消化器官だ",
+      "example_cn": "胃是消化器官"
+    },
+    {
+      "id": "vocab_017",
+      "type": "vocab",
+      "date": "九月三十日",
+      "word": "面談",
+      "reading": "めんだん",
+      "meaning": "面谈",
+      "example": "上司と面談する",
+      "example_cn": "与上司面谈"
+    },
+    {
+      "id": "vocab_018",
+      "type": "vocab",
+      "date": "九月三十日",
+      "word": "柔軟",
+      "reading": "じゅうなん",
+      "meaning": "灵活",
+      "example": "柔軟な対応",
+      "example_cn": "灵活应对"
+    },
+    {
+      "id": "vocab_019",
+      "type": "vocab",
+      "date": "九月三十日",
+      "word": "デスゲーム",
+      "reading": "",
+      "meaning": "死亡游戏",
+      "example": "デスゲームに参加する",
+      "example_cn": "参加死亡游戏"
+    },
+    {
+      "id": "vocab_020",
+      "type": "vocab",
+      "date": "九月三十日",
+      "word": "達成する",
+      "reading": "たっせいする",
+      "meaning": "实现，达成",
+      "example": "目標を達成する",
+      "example_cn": "实现目标"
+    },
+    {
+      "id": "vocab_021",
+      "type": "vocab",
+      "date": "九月三十日",
+      "word": "自己受容",
+      "reading": "じこじゅよう",
+      "meaning": "自我接纳",
+      "example": "自己受容が大切だ",
+      "example_cn": "自我接纳很重要"
+    },
+    {
+      "id": "vocab_022",
+      "type": "vocab",
+      "date": "九月三十日",
+      "word": "人事",
+      "reading": "じんじ",
+      "meaning": "人力资源",
+      "example": "人事部門に聞く",
+      "example_cn": "问人事部门"
+    },
+    {
+      "id": "vocab_023",
+      "type": "vocab",
+      "date": "十月七日",
+      "word": "和気あいあい",
+      "reading": "わきあいあい",
+      "meaning": "融洽",
+      "example": "和気あいあいの雰囲気",
+      "example_cn": "融洽的气氛"
+    },
+    {
+      "id": "vocab_024",
+      "type": "vocab",
+      "date": "十月七日",
+      "word": "一定期間",
+      "reading": "いっていきかん",
+      "meaning": "一定期限",
+      "example": "一定期間働く",
+      "example_cn": "工作一段时间"
+    },
+    {
+      "id": "vocab_025",
+      "type": "vocab",
+      "date": "十月七日",
+      "word": "引継ぎ",
+      "reading": "ひきつぎ",
+      "meaning": "交接",
+      "example": "業務の引継ぎ",
+      "example_cn": "工作交接"
+    },
+    {
+      "id": "vocab_026",
+      "type": "vocab",
+      "date": "十月七日",
+      "word": "床暖房",
+      "reading": "ゆかだんぼう",
+      "meaning": "地暖",
+      "example": "床暖房で温かい",
+      "example_cn": "地暖很暖和"
+    },
+    {
+      "id": "vocab_027",
+      "type": "vocab",
+      "date": "十月七日",
+      "word": "石油ストーブ",
+      "reading": "せきゆストーブ",
+      "meaning": "油炉",
+      "example": "石油ストーブで暖まる",
+      "example_cn": "用油炉取暖"
+    },
+    {
+      "id": "vocab_028",
+      "type": "vocab",
+      "date": "十月七日",
+      "word": "砂漠",
+      "reading": "さばく",
+      "meaning": "沙漠",
+      "example": "サハラ砂漠",
+      "example_cn": "撒哈拉沙漠"
+    },
+    {
+      "id": "vocab_029",
+      "type": "vocab",
+      "date": "十月七日",
+      "word": "収容所",
+      "reading": "しゅうようじょ",
+      "meaning": "收容所",
+      "example": "難民収容所",
+      "example_cn": "难民收容所"
+    },
+    {
+      "id": "vocab_030",
+      "type": "vocab",
+      "date": "十月十四日",
+      "word": "皇室",
+      "reading": "こうしつ",
+      "meaning": "皇室",
+      "example": "皇室の伝統",
+      "example_cn": "皇室传统"
+    },
+    {
+      "id": "vocab_031",
+      "type": "vocab",
+      "date": "十月十四日",
+      "word": "反応",
+      "reading": "はんのう",
+      "meaning": "反应",
+      "example": "良い反応をもらった",
+      "example_cn": "得到好的反应"
+    },
+    {
+      "id": "vocab_032",
+      "type": "vocab",
+      "date": "十月十四日",
+      "word": "白無垢",
+      "reading": "しろむく",
+      "meaning": "白无垢（新娘和服）",
+      "example": "白無垢の花嫁",
+      "example_cn": "穿白无垢的新娘"
+    },
+    {
+      "id": "vocab_033",
+      "type": "vocab",
+      "date": "十月二十一日",
+      "word": "語学",
+      "reading": "ごがく",
+      "meaning": "语言学习",
+      "example": "語学の勉強",
+      "example_cn": "语言学习"
+    },
+    {
+      "id": "vocab_034",
+      "type": "vocab",
+      "date": "十月二十一日",
+      "word": "永住権",
+      "reading": "えいじゅうけん",
+      "meaning": "永居权",
+      "example": "永住権を取得する",
+      "example_cn": "获得永居权"
+    },
+    {
+      "id": "vocab_035",
+      "type": "vocab",
+      "date": "十月二十一日",
+      "word": "長期ビザ",
+      "reading": "ちょうきビザ",
+      "meaning": "长期签证",
+      "example": "長期ビザを申請する",
+      "example_cn": "申请长期签证"
+    },
+    {
+      "id": "vocab_036",
+      "type": "vocab",
+      "date": "十月二十一日",
+      "word": "関税を課す",
+      "reading": "かんぜいをかす",
+      "meaning": "征收关税",
+      "example": "商品に関税を課す",
+      "example_cn": "对商品征收关税"
+    },
+    {
+      "id": "vocab_037",
+      "type": "vocab",
+      "date": "十月二十一日",
+      "word": "積立投資",
+      "reading": "つみたてとうし",
+      "meaning": "定投",
+      "example": "積立投資で貯金する",
+      "example_cn": "通过定投存钱"
+    },
+    {
+      "id": "vocab_038",
+      "type": "vocab",
+      "date": "十月二十一日",
+      "word": "先進国",
+      "reading": "せんしんこく",
+      "meaning": "发达国家",
+      "example": "先進国の技術",
+      "example_cn": "发达国家的技术"
+    },
+    {
+      "id": "vocab_039",
+      "type": "vocab",
+      "date": "十月二十一日",
+      "word": "バブルが崩壊",
+      "reading": "ほうかい",
+      "meaning": "泡沫破裂",
+      "example": "経済バブルが崩壊した",
+      "example_cn": "经济泡沫破裂了"
+    },
+    {
+      "id": "vocab_040",
+      "type": "vocab",
+      "date": "一月十四日",
+      "word": "メンタル",
+      "reading": "",
+      "meaning": "心理，精神",
+      "example": "メンタルが弱い",
+      "example_cn": "心理素质弱"
+    },
+    {
+      "id": "vocab_041",
+      "type": "vocab",
+      "date": "一月十四日",
+      "word": "切除",
+      "reading": "せつじょ",
+      "meaning": "切除",
+      "example": "腫瘍を切除する",
+      "example_cn": "切除肿瘤"
+    },
+    {
+      "id": "vocab_042",
+      "type": "vocab",
+      "date": "一月十四日",
+      "word": "久々",
+      "reading": "ひさびさ",
+      "meaning": "许久，好久",
+      "example": "久々に会った",
+      "example_cn": "许久没见"
+    },
+    {
+      "id": "vocab_043",
+      "type": "vocab",
+      "date": "一月十四日",
+      "word": "観音様",
+      "reading": "かんのんさま",
+      "meaning": "观音菩萨",
+      "example": "観音様に祈る",
+      "example_cn": "向观音祈祷"
+    },
+    {
+      "id": "vocab_044",
+      "type": "vocab",
+      "date": "一月十四日",
+      "word": "抱負",
+      "reading": "ほうふ",
+      "meaning": "抱负",
+      "example": "新年の抱負を立てる",
+      "example_cn": "定新年目标"
+    },
+    {
+      "id": "vocab_045",
+      "type": "vocab",
+      "date": "一月十四日",
+      "word": "成功事例",
+      "reading": "せいこうじれい",
+      "meaning": "成功案例",
+      "example": "成功事例を参考にする",
+      "example_cn": "参考成功案例"
+    },
+    {
+      "id": "vocab_046",
+      "type": "vocab",
+      "date": "一月十四日",
+      "word": "実績",
+      "reading": "じっせき",
+      "meaning": "业绩",
+      "example": "営業の実績",
+      "example_cn": "销售业绩"
+    },
+    {
+      "id": "vocab_047",
+      "type": "vocab",
+      "date": "一月十四日",
+      "word": "せどり",
+      "reading": "",
+      "meaning": "转卖赚差价",
+      "example": "本をせどりで稼ぐ",
+      "example_cn": "通过转卖书赚钱"
+    },
+    {
+      "id": "vocab_048",
+      "type": "vocab",
+      "date": "一月十四日",
+      "word": "コストをカットする",
+      "reading": "",
+      "meaning": "削减成本",
+      "example": "予算をカットする",
+      "example_cn": "削减预算"
+    },
+    {
+      "id": "vocab_049",
+      "type": "vocab",
+      "date": "一月十四日",
+      "word": "向き不向き",
+      "reading": "むきふむき",
+      "meaning": "适不适合",
+      "example": "仕事の向き不向きがある",
+      "example_cn": "工作有适合不适合"
+    },
+    {
+      "id": "vocab_050",
+      "type": "vocab",
+      "date": "一月十四日",
+      "word": "さっぱり",
+      "reading": "",
+      "meaning": "清爽，爽朗",
+      "example": "さっぱりした性格",
+      "example_cn": "性格爽朗"
+    },
+    {
+      "id": "vocab_051",
+      "type": "vocab",
+      "date": "二月十一日",
+      "word": "遺伝子",
+      "reading": "いでんし",
+      "meaning": "基因",
+      "example": "遺伝子検査",
+      "example_cn": "基因检测"
+    },
+    {
+      "id": "vocab_052",
+      "type": "vocab",
+      "date": "二月十一日",
+      "word": "締め出す",
+      "reading": "しめだす",
+      "meaning": "拒之门外",
+      "example": "家から締め出された",
+      "example_cn": "被关在家门外"
+    },
+    {
+      "id": "vocab_053",
+      "type": "vocab",
+      "date": "二月十一日",
+      "word": "気づかされる",
+      "reading": "",
+      "meaning": "被提醒到",
+      "example": "間違いに気づかされた",
+      "example_cn": "被提醒到错误"
+    },
+    {
+      "id": "vocab_054",
+      "type": "vocab",
+      "date": "二月十一日",
+      "word": "思い知らされる",
+      "reading": "",
+      "meaning": "被深刻意识到",
+      "example": "現実を思い知らされた",
+      "example_cn": "被现实狠狠提醒"
+    },
+    {
+      "id": "vocab_055",
+      "type": "vocab",
+      "date": "二月十八日",
+      "word": "南西",
+      "reading": "なんせい",
+      "meaning": "西南",
+      "example": "南西方向に進む",
+      "example_cn": "向西南方向前进"
+    },
+    {
+      "id": "vocab_056",
+      "type": "vocab",
+      "date": "二月十八日",
+      "word": "悪循環",
+      "reading": "あくじゅんかん",
+      "meaning": "恶性循环",
+      "example": "悪循環に陥る",
+      "example_cn": "陷入恶性循环"
+    },
+    {
+      "id": "vocab_057",
+      "type": "vocab",
+      "date": "二月十八日",
+      "word": "賃金の伸び",
+      "reading": "ちんぎんののび",
+      "meaning": "工资上涨",
+      "example": "賃金が伸びた",
+      "example_cn": "工资上涨了"
+    },
+    {
+      "id": "vocab_058",
+      "type": "vocab",
+      "date": "二月二十六日",
+      "word": "チャポチャポ",
+      "reading": "",
+      "meaning": "水声，噗通噗通",
+      "example": "水がチャポチャポ鳴る",
+      "example_cn": "水噗通噗通响"
+    },
+    {
+      "id": "vocab_059",
+      "type": "vocab",
+      "date": "二月二十六日",
+      "word": "ズボラな",
+      "reading": "",
+      "meaning": "邋遢，懒散",
+      "example": "ズボラな性格",
+      "example_cn": "邋遢的性格"
+    },
+    {
+      "id": "vocab_060",
+      "type": "vocab",
+      "date": "三月四日",
+      "word": "押さえる",
+      "reading": "おさえる",
+      "meaning": "把握，抓住",
+      "example": "ポイントを押さえる",
+      "example_cn": "把握要点"
+    },
+    {
+      "id": "vocab_061",
+      "type": "vocab",
+      "date": "三月四日",
+      "word": "足るを知る",
+      "reading": "たるをしる",
+      "meaning": "知足",
+      "example": "足るを知ることが大切",
+      "example_cn": "知足很重要"
+    },
+    {
+      "id": "vocab_062",
+      "type": "vocab",
+      "date": "三月四日",
+      "word": "因縁が深い",
+      "reading": "いんねんがふかい",
+      "meaning": "缘分深",
+      "example": "二人は因縁が深い",
+      "example_cn": "两人缘分深"
+    },
+    {
+      "id": "vocab_063",
+      "type": "vocab",
+      "date": "三月十一日",
+      "word": "就労",
+      "reading": "しゅうろう",
+      "meaning": "就业",
+      "example": "就労ビザを取る",
+      "example_cn": "拿工作签证"
+    },
+    {
+      "id": "vocab_064",
+      "type": "vocab",
+      "date": "三月十一日",
+      "word": "剥奪",
+      "reading": "はくだつ",
+      "meaning": "剥夺",
+      "example": "ビザを剥奪される",
+      "example_cn": "被剥夺签证"
+    },
+    {
+      "id": "vocab_065",
+      "type": "vocab",
+      "date": "三月十一日",
+      "word": "抜け道",
+      "reading": "ぬけみち",
+      "meaning": "漏洞，捷径",
+      "example": "法律の抜け道",
+      "example_cn": "法律漏洞"
+    },
+    {
+      "id": "vocab_066",
+      "type": "vocab",
+      "date": "三月十一日",
+      "word": "給与基準",
+      "reading": "きゅうよきじゅん",
+      "meaning": "工资标准",
+      "example": "給与基準を満たす",
+      "example_cn": "符合工资标准"
+    },
+    {
+      "id": "vocab_067",
+      "type": "vocab",
+      "date": "三月十一日",
+      "word": "警察",
+      "reading": "けいさつ",
+      "meaning": "警察",
+      "example": "警察に通報する",
+      "example_cn": "向警察报案"
+    },
+    {
+      "id": "vocab_068",
+      "type": "vocab",
+      "date": "三月十一日",
+      "word": "筋トレ",
+      "reading": "きんトレ",
+      "meaning": "力量训练",
+      "example": "毎日筋トレする",
+      "example_cn": "每天力量训练"
+    },
+    {
+      "id": "vocab_069",
+      "type": "vocab",
+      "date": "三月十一日",
+      "word": "怪我",
+      "reading": "けが",
+      "meaning": "受伤",
+      "example": "足に怪我した",
+      "example_cn": "脚受伤了"
+    },
+    {
+      "id": "vocab_070",
+      "type": "vocab",
+      "date": "三月十一日",
+      "word": "ぽっちゃり",
+      "reading": "",
+      "meaning": "微胖",
+      "example": "ぽっちゃり体型",
+      "example_cn": "微胖身材"
+    },
+    {
+      "id": "vocab_071",
+      "type": "vocab",
+      "date": "三月十一日",
+      "word": "栄養バランス",
+      "reading": "えいようバランス",
+      "meaning": "营养均衡",
+      "example": "バランスが取れた食事",
+      "example_cn": "营养均衡的饮食"
+    },
+    {
+      "id": "vocab_072",
+      "type": "vocab",
+      "date": "三月十一日",
+      "word": "代謝",
+      "reading": "たいしゃ",
+      "meaning": "代谢",
+      "example": "代謝が良い",
+      "example_cn": "代谢好"
+    },
+    {
+      "id": "vocab_073",
+      "type": "vocab",
+      "date": "三月十一日",
+      "word": "摂食障害",
+      "reading": "せっしょくしょうがい",
+      "meaning": "饮食障碍",
+      "example": "摂食障害で苦しむ",
+      "example_cn": "被饮食障碍困扰"
+    },
+    {
+      "id": "vocab_074",
+      "type": "vocab",
+      "date": "三月二十五日",
+      "word": "転職市場",
+      "reading": "てんしょくしじょう",
+      "meaning": "求职市场",
+      "example": "転職市場が活発",
+      "example_cn": "求职市场活跃"
+    },
+    {
+      "id": "vocab_075",
+      "type": "vocab",
+      "date": "三月二十五日",
+      "word": "お誘い",
+      "reading": "おさそい",
+      "meaning": "邀请",
+      "example": "お誘いがあった",
+      "example_cn": "收到了邀请"
+    },
+    {
+      "id": "vocab_076",
+      "type": "vocab",
+      "date": "三月二十五日",
+      "word": "条件",
+      "reading": "じょうけん",
+      "meaning": "条件",
+      "example": "良い条件で働く",
+      "example_cn": "在好条件下工作"
+    },
+    {
+      "id": "vocab_077",
+      "type": "vocab",
+      "date": "三月二十五日",
+      "word": "将来性",
+      "reading": "しょうらいせい",
+      "meaning": "发展前景",
+      "example": "将来性がある仕事",
+      "example_cn": "有前景的工作"
+    },
+    {
+      "id": "vocab_078",
+      "type": "vocab",
+      "date": "三月二十五日",
+      "word": "任せる",
+      "reading": "まかせる",
+      "meaning": "委托，交给",
+      "example": "部下に任せる",
+      "example_cn": "交给下属"
+    },
+    {
+      "id": "vocab_079",
+      "type": "vocab",
+      "date": "三月二十五日",
+      "word": "アーリーアダプター",
+      "reading": "",
+      "meaning": "早期采用者",
+      "example": "新技術のアーリーアダプター",
+      "example_cn": "新技术的早期采用者"
+    },
+    {
+      "id": "vocab_080",
+      "type": "vocab",
+      "date": "三月二十五日",
+      "word": "奪う",
+      "reading": "うばう",
+      "meaning": "夺走",
+      "example": "チャンスを奪う",
+      "example_cn": "夺走机会"
+    },
+    {
+      "id": "vocab_081",
+      "type": "vocab",
+      "date": "三月二十五日",
+      "word": "やりとり",
+      "reading": "",
+      "meaning": "交流，来往",
+      "example": "メールのやりとり",
+      "example_cn": "邮件往来"
+    },
+    {
+      "id": "vocab_082",
+      "type": "vocab",
+      "date": "三月二十五日",
+      "word": "比じゃない",
+      "reading": "ひじゃない",
+      "meaning": "不能比",
+      "example": "去年と比じゃない",
+      "example_cn": "跟去年没法比"
+    },
+    {
+      "id": "vocab_083",
+      "type": "vocab",
+      "date": "三月二十五日",
+      "word": "日進月歩",
+      "reading": "にっしんげっぽ",
+      "meaning": "日新月异",
+      "example": "技術の日進月歩",
+      "example_cn": "技术日新月异"
+    },
+    {
+      "id": "vocab_084",
+      "type": "vocab",
+      "date": "三月二十五日",
+      "word": "弊害",
+      "reading": "へいがい",
+      "meaning": "弊端",
+      "example": "制度の弊害",
+      "example_cn": "制度的弊端"
+    },
+    {
+      "id": "vocab_085",
+      "type": "vocab",
+      "date": "三月二十五日",
+      "word": "過ちを犯す",
+      "reading": "あやまちをおかす",
+      "meaning": "犯错",
+      "example": "大きな過ちを犯した",
+      "example_cn": "犯了大错"
+    },
+    {
+      "id": "vocab_086",
+      "type": "vocab",
+      "date": "三月二十五日",
+      "word": "皇太子",
+      "reading": "こうたいし",
+      "meaning": "皇太子",
+      "example": "皇太子殿下",
+      "example_cn": "皇太子殿下"
+    },
+    {
+      "id": "vocab_087",
+      "type": "vocab",
+      "date": "三月二十五日",
+      "word": "庶民",
+      "reading": "しょみん",
+      "meaning": "平民",
+      "example": "庶民的な生活",
+      "example_cn": "平民生活"
+    },
+    {
+      "id": "vocab_088",
+      "type": "vocab",
+      "date": "三月二十五日",
+      "word": "浮気相手",
+      "reading": "うわきあいて",
+      "meaning": "出轨对象",
+      "example": "浮気相手と別れた",
+      "example_cn": "与出轨对象分手"
+    },
+    {
+      "id": "vocab_089",
+      "type": "vocab",
+      "date": "三月二十五日",
+      "word": "スクールカースト",
+      "reading": "",
+      "meaning": "校园阶级制度",
+      "example": "スクールカースト上位",
+      "example_cn": "校园阶级上层"
+    },
+    {
+      "id": "vocab_090",
+      "type": "vocab",
+      "date": "三月二十五日",
+      "word": "ベーシックインカム",
+      "reading": "",
+      "meaning": "全民基本收入",
+      "example": "ベーシックインカム制度",
+      "example_cn": "全民基本收入制度"
+    },
+    {
+      "id": "vocab_091",
+      "type": "vocab",
+      "date": "四月八日",
+      "word": "渡す",
+      "reading": "わたす",
+      "meaning": "交给",
+      "example": "資料を渡す",
+      "example_cn": "交资料"
+    },
+    {
+      "id": "vocab_092",
+      "type": "vocab",
+      "date": "四月八日",
+      "word": "資料",
+      "reading": "しりょう",
+      "meaning": "资料",
+      "example": "会議の資料",
+      "example_cn": "会议资料"
+    },
+    {
+      "id": "vocab_093",
+      "type": "vocab",
+      "date": "四月八日",
+      "word": "プレゼン",
+      "reading": "",
+      "meaning": "演示，报告",
+      "example": "プレゼンをする",
+      "example_cn": "做演示"
+    },
+    {
+      "id": "vocab_094",
+      "type": "vocab",
+      "date": "四月八日",
+      "word": "雑談",
+      "reading": "ざつだん",
+      "meaning": "闲聊",
+      "example": "同僚と雑談する",
+      "example_cn": "与同事闲聊"
+    },
+    {
+      "id": "vocab_095",
+      "type": "vocab",
+      "date": "四月八日",
+      "word": "興味をそそられる",
+      "reading": "",
+      "meaning": "引起兴趣",
+      "example": "全然興味をそそられない",
+      "example_cn": "完全引不起兴趣"
+    },
+    {
+      "id": "vocab_096",
+      "type": "vocab",
+      "date": "四月八日",
+      "word": "魅力を感じない",
+      "reading": "",
+      "meaning": "感觉无魅力",
+      "example": "その仕事に魅力を感じない",
+      "example_cn": "对那份工作无感"
+    },
+    {
+      "id": "vocab_097",
+      "type": "vocab",
+      "date": "四月八日",
+      "word": "権力",
+      "reading": "けんりょく",
+      "meaning": "权力",
+      "example": "権力を持つ人",
+      "example_cn": "有权力的人"
+    },
+    {
+      "id": "vocab_098",
+      "type": "vocab",
+      "date": "四月八日",
+      "word": "コンテスト",
+      "reading": "",
+      "meaning": "比赛",
+      "example": "音楽コンテスト",
+      "example_cn": "音乐比赛"
+    },
+    {
+      "id": "vocab_099",
+      "type": "vocab",
+      "date": "四月八日",
+      "word": "秀才",
+      "reading": "しゅうさい",
+      "meaning": "秀才（努力型）",
+      "example": "彼は秀才タイプだ",
+      "example_cn": "他是努力型的"
+    },
+    {
+      "id": "vocab_100",
+      "type": "vocab",
+      "date": "四月八日",
+      "word": "見下す",
+      "reading": "みくだす",
+      "meaning": "看不起",
+      "example": "人を見下している",
+      "example_cn": "看不起别人"
+    },
+    {
+      "id": "vocab_101",
+      "type": "vocab",
+      "date": "四月八日",
+      "word": "学生団体",
+      "reading": "がくせいだんたい",
+      "meaning": "学生社团",
+      "example": "学生団体に入る",
+      "example_cn": "加入学生社团"
+    },
+    {
+      "id": "vocab_102",
+      "type": "vocab",
+      "date": "四月八日",
+      "word": "ナヨナヨ",
+      "reading": "",
+      "meaning": "软弱",
+      "example": "ナヨナヨした男",
+      "example_cn": "软弱的男人"
+    },
+    {
+      "id": "vocab_103",
+      "type": "vocab",
+      "date": "四月八日",
+      "word": "頼りない",
+      "reading": "たよりない",
+      "meaning": "靠不住",
+      "example": "頼りない人だ",
+      "example_cn": "是个靠不住的人"
+    },
+    {
+      "id": "vocab_104",
+      "type": "vocab",
+      "date": "四月八日",
+      "word": "陰キャ",
+      "reading": "いんキャ",
+      "meaning": "内向阴沉的人",
+      "example": "陰キャタイプ",
+      "example_cn": "内向阴沉型"
+    },
+    {
+      "id": "grammar_105",
+      "type": "grammar",
+      "date": "一月九日",
+      "wrong": "歴史というのがたくさんの偶然がはいるというような感じが浮かんできました",
+      "correct": "歴史というもの自体にたくさんの偶然が起こっている(起きている)と感じました",
+      "explanation": "",
+      "pattern": "のがたくさんの偶然がはいるとい"
+    },
+    {
+      "id": "grammar_106",
+      "type": "grammar",
+      "date": "一月九日",
+      "wrong": "大きいだから",
+      "correct": "大きいから/大きいので",
+      "explanation": "",
+      "pattern": "だから→から/大きいので"
+    },
+    {
+      "id": "grammar_107",
+      "type": "grammar",
+      "date": "一月九日",
+      "wrong": "縄文時代はちょっとまえにわかりますけど",
+      "correct": "縄文時代は以前から知っていたけど/知っていましたが",
+      "explanation": "",
+      "pattern": "ちょっとまえにわかりますけど→"
+    },
+    {
+      "id": "grammar_108",
+      "type": "grammar",
+      "date": "一月十二日",
+      "wrong": "同じ年",
+      "correct": "同い年",
+      "explanation": "",
+      "pattern": "じ→い"
+    },
+    {
+      "id": "grammar_109",
+      "type": "grammar",
+      "date": "一月十二日",
+      "wrong": "縄文時代と大きな差があると感じします",
+      "correct": "縄文時代と大きな差があると感じました/感じた",
+      "explanation": "縄文時代と大きな差があるという感じがしました",
+      "pattern": "します→ました/感じた"
+    },
+    {
+      "id": "grammar_110",
+      "type": "grammar",
+      "date": "一月十二日",
+      "wrong": "国を生まれました",
+      "correct": "国がうまれました",
+      "explanation": "",
+      "pattern": "を生→がう"
+    },
+    {
+      "id": "grammar_111",
+      "type": "grammar",
+      "date": "一月十二日",
+      "wrong": "そういう性格じゃなくてやっぱり皇帝にならないと思っていて",
+      "correct": "そういう性格じゃないと皇帝にならないと思っていて",
+      "explanation": "",
+      "pattern": "くてやっぱり→いと"
+    },
+    {
+      "id": "grammar_112",
+      "type": "grammar",
+      "date": "一月二十三日",
+      "wrong": "若者の間に踊ります",
+      "correct": "若者の結婚式では踊ります",
+      "explanation": "",
+      "pattern": "間に→結婚式では"
+    },
+    {
+      "id": "grammar_113",
+      "type": "grammar",
+      "date": "一月二十三日",
+      "wrong": "両親が会う機会がなかった",
+      "correct": "両親と会う機会がなかった",
+      "explanation": "",
+      "pattern": "が→と"
+    },
+    {
+      "id": "grammar_114",
+      "type": "grammar",
+      "date": "一月二十三日",
+      "wrong": "付き合いの３年間の時についに会う機会がありました(去年)",
+      "correct": "付き合って３年目の時",
+      "explanation": "",
+      "pattern": "いの３年間の時についに会う機会"
+    },
+    {
+      "id": "grammar_115",
+      "type": "grammar",
+      "date": "三月四日",
+      "wrong": "",
+      "correct": "住んでいました。",
+      "explanation": "",
+      "pattern": "→住んでいました。"
+    },
+    {
+      "id": "grammar_116",
+      "type": "grammar",
+      "date": "三月四日",
+      "wrong": "",
+      "correct": "大学院にいた時に/大学院のときに",
+      "explanation": "",
+      "pattern": "→大学院にいた時に/大学院のと"
+    },
+    {
+      "id": "grammar_117",
+      "type": "grammar",
+      "date": "三月四日",
+      "wrong": "",
+      "correct": "能力を上げたい",
+      "explanation": "",
+      "pattern": "→能力を上げたい"
+    },
+    {
+      "id": "grammar_118",
+      "type": "grammar",
+      "date": "三月四日",
+      "wrong": "",
+      "correct": "在宅で暇な時間があるので、その時間を使って自分の日本語能力を上げたいと思いました",
+      "explanation": "",
+      "pattern": "→在宅で暇な時間があるので、そ"
+    },
+    {
+      "id": "grammar_119",
+      "type": "grammar",
+      "date": "三月四日",
+      "wrong": "",
+      "correct": "試験を受ける/資格を取る",
+      "explanation": "",
+      "pattern": "→試験を受ける/資格を取る"
+    },
+    {
+      "id": "grammar_120",
+      "type": "grammar",
+      "date": "三月四日",
+      "wrong": "",
+      "correct": "上げること",
+      "explanation": "",
+      "pattern": "→上げること"
+    },
+    {
+      "id": "grammar_121",
+      "type": "grammar",
+      "date": "三月四日",
+      "wrong": "",
+      "correct": "字幕無しで、わかるようになる",
+      "explanation": "",
+      "pattern": "→字幕無しで、わかるようになる"
+    },
+    {
+      "id": "grammar_122",
+      "type": "grammar",
+      "date": "三月四日",
+      "wrong": "ことになる",
+      "correct": "自分以外が決定 ことにする",
+      "explanation": "",
+      "pattern": "ことにな→自分以外が決定 こと"
+    },
+    {
+      "id": "grammar_123",
+      "type": "grammar",
+      "date": "三月四日",
+      "wrong": "",
+      "correct": "仕事の内容に満足していません",
+      "explanation": "",
+      "pattern": "→仕事の内容に満足していません"
+    },
+    {
+      "id": "grammar_124",
+      "type": "grammar",
+      "date": "三月四日",
+      "wrong": "",
+      "correct": "今の会社の成長は緩やかになってしまっています",
+      "explanation": "",
+      "pattern": "→今の会社の成長は緩やかになっ"
+    },
+    {
+      "id": "grammar_125",
+      "type": "grammar",
+      "date": "三月四日",
+      "wrong": "",
+      "correct": "もしかしたら、転職するかもしれないです",
+      "explanation": "",
+      "pattern": "→もしかしたら、転職するかもし"
+    },
+    {
+      "id": "grammar_126",
+      "type": "grammar",
+      "date": "三月四日",
+      "wrong": "",
+      "correct": "故郷・母国",
+      "explanation": "",
+      "pattern": "→故郷・母国"
+    },
+    {
+      "id": "grammar_127",
+      "type": "grammar",
+      "date": "三月十一日",
+      "wrong": "",
+      "correct": "コロナをあまり問題視していないと思います",
+      "explanation": "",
+      "pattern": "→コロナをあまり問題視していな"
+    },
+    {
+      "id": "grammar_128",
+      "type": "grammar",
+      "date": "三月十一日",
+      "wrong": "",
+      "correct": "日常生活に支障（ししょう）はありませんでした",
+      "explanation": "",
+      "pattern": "→日常生活に支障（ししょう）は"
+    },
+    {
+      "id": "grammar_129",
+      "type": "grammar",
+      "date": "三月十一日",
+      "wrong": "",
+      "correct": "今後他の国にも行きたいですか？",
+      "explanation": "",
+      "pattern": "→今後他の国にも行きたいですか"
+    },
+    {
+      "id": "grammar_130",
+      "type": "grammar",
+      "date": "三月十一日",
+      "wrong": "",
+      "correct": "仕事があるのであと2年は住む予定です。その後は引っ越してもいいかなと思っています",
+      "explanation": "",
+      "pattern": "→仕事があるのであと2年は住む"
+    },
+    {
+      "id": "grammar_131",
+      "type": "grammar",
+      "date": "三月十一日",
+      "wrong": "",
+      "correct": "ないといけない",
+      "explanation": "",
+      "pattern": "→ないといけない"
+    },
+    {
+      "id": "grammar_132",
+      "type": "grammar",
+      "date": "三月十一日",
+      "wrong": "",
+      "correct": "なんて言ったらいいんだろう",
+      "explanation": "",
+      "pattern": "→なんて言ったらいいんだろう"
+    },
+    {
+      "id": "grammar_133",
+      "type": "grammar",
+      "date": "三月十八日",
+      "wrong": "",
+      "correct": "中国語の時は聞くことが多いと思う",
+      "explanation": "",
+      "pattern": "→中国語の時は聞くことが多いと"
+    },
+    {
+      "id": "grammar_134",
+      "type": "grammar",
+      "date": "三月十八日",
+      "wrong": "",
+      "correct": "5月末だったけど10度しかありませんでした。山はたくさん雪が積もっていました",
+      "explanation": "",
+      "pattern": "→5月末だったけど10度しかあ"
+    },
+    {
+      "id": "grammar_135",
+      "type": "grammar",
+      "date": "三月十八日",
+      "wrong": "",
+      "correct": "例えば牛とか鹿とかクロコダイルとかもいました",
+      "explanation": "",
+      "pattern": "→例えば牛とか鹿とかクロコダイ"
+    },
+    {
+      "id": "grammar_136",
+      "type": "grammar",
+      "date": "三月十八日",
+      "wrong": "",
+      "correct": "公園の奥深くを運転するのが面白かったです",
+      "explanation": "",
+      "pattern": "→公園の奥深くを運転するのが面"
+    },
+    {
+      "id": "grammar_137",
+      "type": "grammar",
+      "date": "三月十八日",
+      "wrong": "",
+      "correct": "山の頂上は高原でした",
+      "explanation": "",
+      "pattern": "→山の頂上は高原でした"
+    },
+    {
+      "id": "grammar_138",
+      "type": "grammar",
+      "date": "三月十八日",
+      "wrong": "",
+      "correct": "彼氏と交代しながら運転しました",
+      "explanation": "",
+      "pattern": "→彼氏と交代しながら運転しまし"
+    },
+    {
+      "id": "grammar_139",
+      "type": "grammar",
+      "date": "九月九日",
+      "wrong": "おしごとです",
+      "correct": "おしごとしています",
+      "explanation": "",
+      "pattern": "で→していま"
+    },
+    {
+      "id": "grammar_140",
+      "type": "grammar",
+      "date": "九月九日",
+      "wrong": "いろんな国からの人がいるから",
+      "correct": "いろんな国籍の人々がいるので",
+      "explanation": "",
+      "pattern": "からの人がいるから→籍の人々が"
+    },
+    {
+      "id": "grammar_141",
+      "type": "grammar",
+      "date": "九月九日",
+      "wrong": "卒業したから",
+      "correct": "してから",
+      "explanation": "",
+      "pattern": "卒業した→して"
+    },
+    {
+      "id": "grammar_142",
+      "type": "grammar",
+      "date": "九月九日",
+      "wrong": "もどるかな",
+      "correct": "もどろうかな",
+      "explanation": "",
+      "pattern": "る→ろう"
+    },
+    {
+      "id": "grammar_143",
+      "type": "grammar",
+      "date": "九月九日",
+      "wrong": "なんにんで一緒に遊ぶ",
+      "correct": "何人かで一緒に遊ぶ",
+      "explanation": "",
+      "pattern": "なんにん→何人か"
+    },
+    {
+      "id": "grammar_144",
+      "type": "grammar",
+      "date": "九月九日",
+      "wrong": "いちたいいち",
+      "correct": "いったいいち",
+      "explanation": "",
+      "pattern": "ち→っ"
+    },
+    {
+      "id": "grammar_145",
+      "type": "grammar",
+      "date": "九月九日",
+      "wrong": "できるほど",
+      "correct": "できるかぎり",
+      "explanation": "",
+      "pattern": "ほど→かぎり"
+    },
+    {
+      "id": "grammar_146",
+      "type": "grammar",
+      "date": "九月九日",
+      "wrong": "研究員にいって",
+      "correct": "研究員として",
+      "explanation": "",
+      "pattern": "にいっ→とし"
+    },
+    {
+      "id": "grammar_147",
+      "type": "grammar",
+      "date": "九月十六日",
+      "wrong": "いまをみるとも",
+      "correct": "いまみても古さを感じない",
+      "explanation": "",
+      "pattern": "をみるとも→みても古さを感じな"
+    },
+    {
+      "id": "grammar_148",
+      "type": "grammar",
+      "date": "九月十六日",
+      "wrong": "コロナの中で",
+      "correct": "コロナの時期に/コロナ中に",
+      "explanation": "",
+      "pattern": "中で→時期に/コロナ中に"
+    },
+    {
+      "id": "grammar_149",
+      "type": "grammar",
+      "date": "九月十六日",
+      "wrong": "家でおしっこすると綺麗にならない",
+      "correct": "清潔じゃない",
+      "explanation": "",
+      "pattern": "家でおしっこすると綺麗になら→"
+    },
+    {
+      "id": "grammar_150",
+      "type": "grammar",
+      "date": "九月二十三日",
+      "wrong": "飲みません",
+      "correct": "飲んでいます",
+      "explanation": "",
+      "pattern": "みません→んでいます"
+    },
+    {
+      "id": "grammar_151",
+      "type": "grammar",
+      "date": "九月二十三日",
+      "wrong": "医者さん",
+      "correct": "お医者さん",
+      "explanation": "",
+      "pattern": "→お"
+    },
+    {
+      "id": "grammar_152",
+      "type": "grammar",
+      "date": "九月二十三日",
+      "wrong": "診断してくれたり",
+      "correct": "診断してもらったり",
+      "explanation": "",
+      "pattern": "くれ→もらっ"
+    },
+    {
+      "id": "grammar_153",
+      "type": "grammar",
+      "date": "九月三十日",
+      "wrong": "どこでもいってなくて",
+      "correct": "どこにもいってなくて",
+      "explanation": "",
+      "pattern": "で→に"
+    },
+    {
+      "id": "grammar_154",
+      "type": "grammar",
+      "date": "九月三十日",
+      "wrong": "連絡してくれて",
+      "correct": "連絡がきて/連絡をもらって",
+      "explanation": "",
+      "pattern": "してくれ→がきて/連絡をもらっ"
+    },
+    {
+      "id": "grammar_155",
+      "type": "grammar",
+      "date": "九月三十日",
+      "wrong": "なんとかわかる",
+      "correct": "なんとなくわかる：好像理解了",
+      "explanation": "",
+      "pattern": "かわかる→なくわかる：好像理解"
+    },
+    {
+      "id": "grammar_156",
+      "type": "grammar",
+      "date": "九月三十日",
+      "wrong": "スキルも上手",
+      "correct": "スキルも高い",
+      "explanation": "",
+      "pattern": "上手→高い"
+    },
+    {
+      "id": "grammar_157",
+      "type": "grammar",
+      "date": "九月三十日",
+      "wrong": "誰の性格も一言では表せない",
+      "correct": "どんな人の性格も",
+      "explanation": "",
+      "pattern": "誰の性格も一言では表せない→ど"
+    },
+    {
+      "id": "grammar_158",
+      "type": "grammar",
+      "date": "九月三十日",
+      "wrong": "週末一人で過ごすの方が",
+      "correct": "過ごす方が",
+      "explanation": "",
+      "pattern": "週末一人で過ごすの→過ごす"
+    },
+    {
+      "id": "grammar_159",
+      "type": "grammar",
+      "date": "九月三十日",
+      "wrong": "人との親しい関係が欲しい",
+      "correct": "人との深い繋がりを求めています",
+      "explanation": "",
+      "pattern": "親しい関係が欲しい→深い繋がり"
+    },
+    {
+      "id": "grammar_160",
+      "type": "grammar",
+      "date": "十月七日",
+      "wrong": "3つがあります",
+      "correct": "3つあります",
+      "explanation": "",
+      "pattern": "が→"
+    },
+    {
+      "id": "grammar_161",
+      "type": "grammar",
+      "date": "十月七日",
+      "wrong": "興味になるところ",
+      "correct": "興味があるところ",
+      "explanation": "",
+      "pattern": "にな→があ"
+    },
+    {
+      "id": "grammar_162",
+      "type": "grammar",
+      "date": "十月七日",
+      "wrong": "大丈夫そうにすごせる",
+      "correct": "外に出なくても大丈夫/外に出なくても過ごせる",
+      "explanation": "",
+      "pattern": "大丈夫そうにす→外に出なくても"
+    },
+    {
+      "id": "grammar_163",
+      "type": "grammar",
+      "date": "十月七日",
+      "wrong": "多くの所に行ったことがある",
+      "correct": "いろんな所",
+      "explanation": "",
+      "pattern": "多くの所に行ったことがある→い"
+    },
+    {
+      "id": "grammar_164",
+      "type": "grammar",
+      "date": "十月七日",
+      "wrong": "好きなものがあるからかいました",
+      "correct": "好きなものがあったらかいます",
+      "explanation": "",
+      "pattern": "るからかいました→ったらかいま"
+    },
+    {
+      "id": "grammar_165",
+      "type": "grammar",
+      "date": "十月十四日",
+      "wrong": "仕事をしてから4年間一番忙しいと思います",
+      "correct": "仕事を初めて4年間、今が一番忙しいと思います",
+      "explanation": "",
+      "pattern": "してから4年間→初めて4年間、"
+    },
+    {
+      "id": "grammar_166",
+      "type": "grammar",
+      "date": "十月十四日",
+      "wrong": "駄目のタイプ",
+      "correct": "駄目な",
+      "explanation": "",
+      "pattern": "のタイプ→な"
+    },
+    {
+      "id": "grammar_167",
+      "type": "grammar",
+      "date": "十月十四日",
+      "wrong": "昔の物が集まって",
+      "correct": "昔のものをたくさん集めた店",
+      "explanation": "",
+      "pattern": "物が集まって→ものをたくさん集"
+    },
+    {
+      "id": "grammar_168",
+      "type": "grammar",
+      "date": "十月十四日",
+      "wrong": "船を乗って",
+      "correct": "船に乗って",
+      "explanation": "",
+      "pattern": "を→に"
+    },
+    {
+      "id": "grammar_169",
+      "type": "grammar",
+      "date": "十月十四日",
+      "wrong": "嫌と思うから",
+      "correct": "嫌だと思う",
+      "explanation": "",
+      "pattern": "と思うから→だと思う"
+    },
+    {
+      "id": "grammar_170",
+      "type": "grammar",
+      "date": "十月十四日",
+      "wrong": "つきあいていて",
+      "correct": "付き合っていて",
+      "explanation": "",
+      "pattern": "つきあい→付き合っ"
+    },
+    {
+      "id": "grammar_171",
+      "type": "grammar",
+      "date": "十月十四日",
+      "wrong": "いるでもいないでも",
+      "correct": "いてもいなくても",
+      "explanation": "",
+      "pattern": "るでもいないで→てもいなくて"
+    },
+    {
+      "id": "grammar_172",
+      "type": "grammar",
+      "date": "十月二十一日",
+      "wrong": "フランスに対して特別な思いがない",
+      "correct": "思い入れがない",
+      "explanation": "",
+      "pattern": "フランスに対して特別な思い→思"
+    },
+    {
+      "id": "grammar_173",
+      "type": "grammar",
+      "date": "十月二十一日",
+      "wrong": "経済の状況にあって",
+      "correct": "よって",
+      "explanation": "",
+      "pattern": "経済の状況にあ→よ"
+    },
+    {
+      "id": "grammar_174",
+      "type": "grammar",
+      "date": "十月二十一日",
+      "wrong": "国家の信用にもとて価値がある",
+      "correct": "国家の信用に基づいて価値がある",
+      "explanation": "",
+      "pattern": "もと→基づい"
+    }
+  ]
+}

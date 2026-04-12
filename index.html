@@ -3894,10 +3894,12 @@ body { display:flex; flex-direction:column; overflow:hidden; }
     for (var i = 0; i < served.length; i++) {
       var item = all.filter(function(x) { return x.id === served[i]; })[0];
       if (!item) continue;
-      // Skip done cards, unless they were marked wrong today (re-review)
+      // Skip done cards, unless they were marked wrong and not yet passed
+      // (lastWrong is today AND next is still today = still needs re-review)
+      // (lastWrong is today AND next is future = was passed after being wrong, skip)
       if (doneList.indexOf(item.id) >= 0) {
         var s = state[item.id];
-        if (!(s && s.lastWrong === today())) continue;
+        if (!(s && s.lastWrong === today() && s.next <= today())) continue;
       }
       queue.push(item);
     }
@@ -4075,7 +4077,6 @@ body { display:flex; flex-direction:column; overflow:hidden; }
     if (state[item.id]) {
       state[item.id].level = Math.min(6, state[item.id].level + 1);
       state[item.id].next = nextReviewDate(state[item.id].level);
-      state[item.id].lastWrong = ""; // clear so it won't reappear on reload
       // Reduce wrong count gradually on success
       if (state[item.id].wrongCount > 0) state[item.id].wrongCount = Math.max(0, state[item.id].wrongCount - 1);
     }

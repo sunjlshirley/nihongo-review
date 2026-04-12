@@ -67,6 +67,7 @@ body { display:flex; flex-direction:column; overflow:hidden; }
   .card-wrong { color:#e5e7eb; }
   .controls { background:#262626; border-top-color:#404040; }
   .btn-prev,.btn-next { background:#404040; color:#e5e7eb; }
+  #btn-vocab-mode { background:#404040; color:#d4a574; border-color:#4a4440; }
   .progress-bar { background:#404040; }
 }
 </style>
@@ -87,7 +88,10 @@ body { display:flex; flex-direction:column; overflow:hidden; }
 </div>
 
 <div class="panel active" id="panel-vocab">
-  <div class="progress"><span id="prog-vocab">0/0</span></div>
+  <div class="progress" style="display:flex;align-items:center;justify-content:center;gap:10px">
+    <span id="prog-vocab">0/0</span>
+    <button id="btn-vocab-mode" onclick="toggleVocabMode()" style="font-size:11px;padding:3px 10px;border:1px solid #d4a574;border-radius:12px;background:#fff;color:#d4a574;cursor:pointer;font-weight:600">日→中</button>
+  </div>
   <div class="progress-bar"><div class="progress-fill" id="bar-vocab" style="width:0%"></div></div>
   <div class="card-area"><div id="card-vocab"></div></div>
 </div>
@@ -3774,6 +3778,7 @@ body { display:flex; flex-direction:column; overflow:hidden; }
   var currentItems = [];
   var currentIndex = 0;
   var flipped = false;
+  var vocabMode = localStorage.getItem("vocabMode") || "jp2cn"; // "jp2cn" or "cn2jp"
 
   function esc(t) {
     if (!t) return "";
@@ -3944,27 +3949,47 @@ body { display:flex; flex-direction:column; overflow:hidden; }
     var wrongBadge = cardState.wrongCount > 0 ? '<div style="font-size:11px;color:#dc2626;margin-bottom:6px">⚠ 要注意（' + cardState.wrongCount + '回間違い）</div>' : '';
 
     if (currentTab === "vocab") {
-      if (!flipped) {
-        html = '<div class="card" onclick="flip()">' +
-          '<div>' +
-          wrongBadge +
-          '<div class="card-label">単語</div>' +
-          '<div class="card-word">' + esc(item.word) + '</div>' +
-          '<div class="card-hint">タップして答えを見る</div>' +
-          '</div></div>';
+      var readingHtml = item.reading ? '<div class="card-label">読み方</div><div class="card-reading">' + esc(item.reading) + '</div>' : '';
+      var exampleHtml = item.example ? '<div class="card-example">例：' + esc(item.example) + '</div>' : '';
+      var exampleCnHtml = item.example_cn ? '<div class="card-meaning" style="font-size:14px;margin-top:4px">' + esc(item.example_cn) + '</div>' : '';
+
+      if (vocabMode === "jp2cn") {
+        // Japanese word on front, Chinese meaning on back
+        if (!flipped) {
+          html = '<div class="card" onclick="flip()">' +
+            '<div>' + wrongBadge +
+            '<div class="card-label">単語</div>' +
+            '<div class="card-word">' + esc(item.word) + '</div>' +
+            '<div class="card-hint">タップして答えを見る</div>' +
+            '</div></div>';
+        } else {
+          html = '<div class="card" onclick="flip()">' +
+            '<div>' +
+            '<div class="card-word">' + esc(item.word) + '</div>' +
+            readingHtml +
+            '<div class="card-label" style="margin-top:12px">意味</div>' +
+            '<div class="card-meaning">' + esc(item.meaning) + '</div>' +
+            exampleHtml + exampleCnHtml +
+            '</div></div>';
+        }
       } else {
-        var readingHtml = item.reading ? '<div class="card-label">読み方</div><div class="card-reading">' + esc(item.reading) + '</div>' : '';
-        var exampleHtml = item.example ? '<div class="card-example">例：' + esc(item.example) + '</div>' : '';
-        var exampleCnHtml = item.example_cn ? '<div class="card-meaning" style="font-size:14px;margin-top:4px">' + esc(item.example_cn) + '</div>' : '';
-        html = '<div class="card" onclick="flip()">' +
-          '<div>' +
-          '<div class="card-word">' + esc(item.word) + '</div>' +
-          readingHtml +
-          '<div class="card-label" style="margin-top:12px">意味</div>' +
-          '<div class="card-meaning">' + esc(item.meaning) + '</div>' +
-          exampleHtml +
-          exampleCnHtml +
-          '</div></div>';
+        // Chinese meaning on front, Japanese word on back
+        if (!flipped) {
+          html = '<div class="card" onclick="flip()">' +
+            '<div>' + wrongBadge +
+            '<div class="card-label">意味</div>' +
+            '<div class="card-meaning" style="font-size:24px;font-weight:700;color:#1f2937">' + esc(item.meaning) + '</div>' +
+            '<div class="card-hint">タップして答えを見る</div>' +
+            '</div></div>';
+        } else {
+          html = '<div class="card" onclick="flip()">' +
+            '<div>' +
+            '<div class="card-label">単語</div>' +
+            '<div class="card-word">' + esc(item.word) + '</div>' +
+            readingHtml +
+            exampleHtml + exampleCnHtml +
+            '</div></div>';
+        }
       }
     } else {
       var isKnowledge = !item.correct;
@@ -4011,6 +4036,14 @@ body { display:flex; flex-direction:column; overflow:hidden; }
     container.innerHTML = html;
     updateNav();
   }
+
+  window.toggleVocabMode = function() {
+    vocabMode = vocabMode === "jp2cn" ? "cn2jp" : "jp2cn";
+    localStorage.setItem("vocabMode", vocabMode);
+    document.getElementById("btn-vocab-mode").textContent = vocabMode === "jp2cn" ? "日→中" : "中→日";
+    flipped = false;
+    render();
+  };
 
   window.flip = function() {
     flipped = !flipped;
@@ -4129,6 +4162,7 @@ body { display:flex; flex-direction:column; overflow:hidden; }
   // Init
   loadData();
   initSRS();
+  document.getElementById("btn-vocab-mode").textContent = vocabMode === "jp2cn" ? "日→中" : "中→日";
   switchTab("vocab");
 })();
 </script>

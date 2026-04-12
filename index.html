@@ -4075,6 +4075,7 @@ body { display:flex; flex-direction:column; overflow:hidden; }
     if (state[item.id]) {
       state[item.id].level = Math.min(6, state[item.id].level + 1);
       state[item.id].next = nextReviewDate(state[item.id].level);
+      state[item.id].lastWrong = ""; // clear so it won't reappear on reload
       // Reduce wrong count gradually on success
       if (state[item.id].wrongCount > 0) state[item.id].wrongCount = Math.max(0, state[item.id].wrongCount - 1);
     }

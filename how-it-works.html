@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AIレッスン復習システム</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: -apple-system, "Hiragino Sans", "Yu Gothic", "Noto Sans JP", sans-serif; color: #1f2937; background: #fafafa; line-height: 1.8; }
+.container { max-width: 680px; margin: 0 auto; padding: 40px 24px 80px; }
+h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; color: #111; }
+h1 span { font-size: 14px; color: #9ca3af; font-weight: 400; display: block; margin-top: 4px; }
+h2 { font-size: 20px; font-weight: 700; margin: 48px 0 16px; padding-bottom: 8px; border-bottom: 2px solid #e5e7eb; color: #111; }
+h3 { font-size: 16px; font-weight: 600; margin: 24px 0 8px; color: #374151; }
+p { margin: 12px 0; color: #374151; }
+strong { color: #111; }
+a { color: #2563eb; text-decoration: none; }
+a:hover { text-decoration: underline; }
+ul { margin: 12px 0; padding-left: 24px; }
+li { margin: 6px 0; color: #374151; }
+hr { border: none; border-top: 1px solid #e5e7eb; margin: 40px 0; }
+
+.intro { background: #f0f5ff; border-radius: 12px; padding: 20px 24px; margin: 24px 0; border-left: 4px solid #2563eb; }
+.intro p { margin: 4px 0; color: #1e40af; }
+
+.steps { counter-reset: step; }
+.step { background: #fff; border-radius: 12px; padding: 20px 24px; margin: 16px 0; box-shadow: 0 1px 3px rgba(0,0,0,.06); border: 1px solid #e5e7eb; position: relative; padding-left: 72px; }
+.step::before { counter-increment: step; content: counter(step); position: absolute; left: 20px; top: 20px; width: 36px; height: 36px; background: #2563eb; color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 16px; }
+.step h3 { margin-top: 0; }
+.step p { font-size: 15px; }
+
+.example-box { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 20px 24px; margin: 16px 0; }
+.example-box h4 { font-size: 13px; color: #9ca3af; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px; }
+.example-label { font-size: 13px; font-weight: 600; color: #6b7280; margin: 12px 0 4px; }
+.example-item { padding: 4px 0; font-size: 15px; }
+.example-item.wrong { color: #dc2626; }
+.example-item.correct { color: #16a34a; }
+.example-item.explain { color: #6b7280; font-size: 14px; }
+
+.tips { background: #fefce8; border-radius: 12px; padding: 20px 24px; margin: 16px 0; border-left: 4px solid #ca8a04; }
+.tips h3 { margin-top: 0; color: #854d0e; }
+.tips li { color: #713f12; }
+
+.cost-table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 15px; }
+.cost-table th { text-align: left; padding: 10px 12px; background: #f3f4f6; border-bottom: 2px solid #e5e7eb; color: #374151; font-weight: 600; }
+.cost-table td { padding: 10px 12px; border-bottom: 1px solid #e5e7eb; color: #374151; }
+
+.footer { text-align: center; margin-top: 48px; font-size: 13px; color: #9ca3af; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<h1>AIレッスン復習システム<span>Preplyレッスンの録音から、復習ノートを自動作成</span></h1>
+
+<div class="intro">
+<p>レッスンの録音をAIに渡すと、<strong>新しい言葉</strong>と<strong>文法の間違い</strong>を自動で整理してくれます。</p>
+<p>生徒はスマホでフラッシュカード形式で復習できます。レッスン後の作業は<strong>5分くらい</strong>です。</p>
+</div>
+
+<h2>流れ</h2>
+
+<div class="steps">
+<div class="step">
+<h3>文字起こし</h3>
+<p>レッスンの録音ファイルを <a href="https://elevenlabs.io" target="_blank">ElevenLabs</a> にアップロードします。数分で会話がテキストになります。先生と生徒の発言も自動で分けてくれます。</p>
+</div>
+
+<div class="step">
+<h3>AI分析</h3>
+<p>文字起こしのテキストを <a href="https://claude.ai/download" target="_blank">Claude Code</a> に渡すと、AIが自動でやってくれます：</p>
+<ul>
+<li>先生が教えた<strong>新しい単語・フレーズ</strong>を抽出</li>
+<li>先生が<strong>訂正したところ</strong>をまとめ</li>
+<li>全部に<strong>生徒の母語で説明</strong>をつける</li>
+<li>Notionに保存 ＋ 復習アプリのデータを更新</li>
+</ul>
+<p>先生がレッスン中に書いたホワイトボードのスクリーンショットがあれば、それも読み取って統合できます。</p>
+</div>
+
+<div class="step">
+<h3>復習</h3>
+<p>生徒はスマホで復習アプリを開いて、フラッシュカードで復習します。覚えた項目は出てくる頻度が減っていきます。</p>
+</div>
+</div>
+
+<h2>出来上がるもの</h2>
+
+<div class="example-box">
+<h4>Notionページの例</h4>
+<div class="example-label">言葉</div>
+<div class="example-item">量は質を凌駕する（りょうがする）：量凌驾于质</div>
+<div class="example-item">喜怒哀楽（きどあいらく）：喜怒哀乐</div>
+<div class="example-item">目の保養（めのほよう）：赏心悦目</div>
+
+<div class="example-label" style="margin-top:16px">文法</div>
+<div class="example-item wrong">❌ 風がすごく強かって</div>
+<div class="example-item correct">→ 風がすごく強くて</div>
+<div class="example-item explain">い形容词的て形：強い→強くて</div>
+</div>
+
+<div class="example-box">
+<h4>復習アプリ</h4>
+<div class="example-item"><strong>単語カード</strong> — 表に日本語 → タップで母語の意味が出る（逆も可）</div>
+<div class="example-item"><strong>文法カード</strong> — 表に間違えた文 → タップで正しい文と解説が出る</div>
+</div>
+
+<h2>AIの役割</h2>
+
+<p>レッスン中の会話は速いので、先生が訂正してくれた内容を全部覚えておくのは難しいです。AIはレッスン全体の会話を振り返って、先生の訂正を漏れなく拾い上げ、パターンごとに整理してくれます。</p>
+
+<p>例えば、こんなカテゴリに分類してくれます：</p>
+
+<ul>
+<li><strong>助詞の間違い</strong>（が/を/に/で の混同）</li>
+<li><strong>自他動詞の混同</strong>（上がる↔上げる、変わる↔変える）</li>
+<li><strong>漢字語の取り違え</strong>（会社↔社会、年収↔年初）</li>
+<li><strong>不自然な表現</strong>（文法的には合ってるけどネイティブはこう言わない）</li>
+<li><strong>母語の影響</strong>（中国語話者なら「原因で」→「せいで/ので」など）</li>
+</ul>
+
+<p>こうして整理されることで、生徒は自分の弱点パターンが見えてきます。</p>
+
+<div class="tips">
+<h3>精度が上がるポイント</h3>
+<ul>
+<li><strong>フレーズ単位の記録</strong> —「凌駕する」だけより「量は質を凌駕する」のように、フレーズごと記録される方が復習しやすくなります</li>
+<li><strong>ホワイトボードの統合</strong> — レッスン中のホワイトボードのスクリーンショットがあれば、AIがそのまま読み取って取り込めます</li>
+<li><strong>チャットメッセージの統合</strong> — Preplyチャットで送られた単語や例文も分析に含められます</li>
+</ul>
+</div>
+
+<h2>費用感</h2>
+
+<table class="cost-table">
+<tr><th>項目</th><th>目安</th></tr>
+<tr><td>文字起こし（ElevenLabs）</td><td>無料プランで十分</td></tr>
+<tr><td>AI分析（Claude Code）</td><td>1レッスンあたり数十円〜百円程度</td></tr>
+<tr><td>復習アプリの公開</td><td>無料</td></tr>
+</table>
+
+<h2>セットアップについて</h2>
+
+<p>最初のセットアップは少し技術的な作業が必要ですが、一度終われば毎回のレッスン後の作業はとてもシンプルです。もし試してみたい場合は、お手伝いできますのでお気軽にどうぞ。</p>
+
+<div class="footer">
+このページは Claude Code によって作成されました
+</div>
+
+</div>
+</body>
+</html>
